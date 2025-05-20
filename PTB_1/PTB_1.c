@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-	int a,b;
+	float a,b;
 	float x;
 	printf("Input a,b := ");
-	scanf("%d, %d", &a,&b);
+	scanf("%f %f", &a,&b);
 	if (a == 0){
 		if ( b == 0 ){
 			printf("PTR VSN");
@@ -15,7 +15,7 @@ int main()
 		}
 	} else {
 		x = -b / a;
-		printf("result := %d", &x);	
+		printf("result := %f", x);	
 	}
 
 return 0;
