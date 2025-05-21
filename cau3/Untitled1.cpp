@@ -21,7 +21,7 @@ int main(){
 		case 7: printf("seven"); break;
 		case 8: printf("eight"); break;
 		case 9: printf("nine"); break;
-		default: printf("don't know'"); break;
+		default: printf("don't know"); break;
 	}
 	
 	return 0;
