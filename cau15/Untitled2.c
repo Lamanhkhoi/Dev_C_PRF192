@@ -1,20 +1,5 @@
 #include <stdio.h>
-
-int main(){
-	int height;
-	
-	do {
-		printf("Input height :=");scanf("%d",&height);
-		if ( height < 0){
-			printf("Please try again !!!\n");
-		}
-	}while( height < 0);
-	
-	
-	switch (choose)
-}
-
-int soildTriangles( int height){
+void soildTriangles( int height){
 	for ( int i = 0; i <= height; i++){
 		for ( int j = 0; j <= height - i - 1; j++){
 			printf(" ");
@@ -24,10 +9,9 @@ int soildTriangles( int height){
 		}
 	printf("\n");
 	}
-	return 0;
 }
 
-int hollowTriangles( int height){
+void hollowTriangles( int height){
 	for ( int i = 0; i <= height; i++){
 		for ( int j = 0; j <= height - i - 1; j++){
 			printf(" ");
@@ -42,5 +26,26 @@ int hollowTriangles( int height){
 		}
 	printf("\n");
 	}
+}
+
+int main(){
+	int height;
+	
+	do {
+		printf("Input height :=");scanf("%d",&height);
+		if ( height < 0){
+			printf("Please try again !!!\n");
+		}
+	}while( height < 0);
+	
+	printf("In tam giac rong thi chon 1");
+	printf("In tam giac nguyen ven chon 2");
+	scanf("%d",&choose);
+	switch (choose){
+		case 1:
+			soildTriangles( height )
+	}
+
 	return 0;
 }
+
