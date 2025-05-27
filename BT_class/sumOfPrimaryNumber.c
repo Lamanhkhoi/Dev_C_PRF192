@@ -17,11 +17,14 @@ int main(){
 				if (i % j == 0){
 					soNguyenTo = 0;
 					break;
+					
 				}
+			
 			}
 		}
 		if (soNguyenTo == 1){
 			result += i;
+			printf("%d", i);
 		}
 	}
 	

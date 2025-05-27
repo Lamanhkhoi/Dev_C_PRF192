@@ -1,5 +1,6 @@
 #include <stdio.h>
-void soildTriangles( int height){
+
+void solidTriangles( int height){
 	for ( int i = 0; i <= height; i++){
 		for ( int j = 0; j <= height - i - 1; j++){
 			printf(" ");
@@ -29,7 +30,7 @@ void hollowTriangles( int height){
 }
 
 int main(){
-	int height;
+	int height, choose;
 	
 	do {
 		printf("Input height :=");scanf("%d",&height);
@@ -38,14 +39,18 @@ int main(){
 		}
 	}while( height < 0);
 	
-	printf("In tam giac rong thi chon 1");
-	printf("In tam giac nguyen ven chon 2");
-	scanf("%d",&choose);
+	printf("In tam giac rong thi chon 1\n");
+	printf("In tam giac nguyen ven chon 2\n");
+	printf("Your choose is :=");scanf("%d",&choose);
+	
 	switch (choose){
 		case 1:
-			soildTriangles( height )
+			solidTriangles( height );
+			break;
+		case 2:
+			hollowTriangles( height );
+			break;
 	}
-
 	return 0;
 }
 
