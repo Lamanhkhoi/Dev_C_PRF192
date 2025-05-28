@@ -1,6 +1,16 @@
 #include<stdio.h> 
 #include<math.h> 
 
+// Function Prototypes (Khai báo hàm)
+int largestNumericCharacter(int n);
+int smallestNumericCharacter(int n);
+int sumOfNumericCharacters(int n);
+int findTheOpposite(int n); 
+int countCharacters(int n);
+int calculateTheProduct(int n);
+int countTheNumberOfOdd(int n);
+int calculateTheSumOfEven(int n);
+
 void menu()
 {
 	printf("\n------------ho va ten - mssv----------------");
@@ -40,7 +50,7 @@ int main()
 				printf("%d", sumOfNumericCharacters(n));
 				break;
 			case 4:
-				printf("%d", findTheOppsite(n));
+				printf("%d", findTheOpposite(n));
 				break;
 			case 5:
 				printf("%d", countCharacters(n));
@@ -98,7 +108,7 @@ int sumOfNumericCharacters(int n){
 	return result;
 }
 
-int findTheOppsite(int n){
+int findTheOpposite(int n){
 	int sum = 0,count = 0, tam = 0;
 	tam = n;
 	while(tam != 0){
@@ -114,9 +124,7 @@ int findTheOppsite(int n){
 int countCharacters(int n){
 	int temp = n,count = 0, result = 0;
 	while( temp != 0 ){		
-		if ( temp != 0 ){
-			result++;
-		}
+		result++;
 		temp = temp / 10;
 	}
 	return result;
@@ -124,7 +132,7 @@ int countCharacters(int n){
 
 int calculateTheProduct(int n){
 	int temp = n,count = 0;
-	double result = 1;
+	long long result = 1;
 
 	while( temp != 0 ){		
 		count = temp % 10;
