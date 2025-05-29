@@ -13,7 +13,7 @@ int calculateTheSumOfEven(int n);
 
 void menu()
 {
-	printf("\n------------ho va ten - mssv----------------");
+	printf("\n------------Lâm Anh Khôi - SE203458----------------");
 	printf("\n0. Exit");
 	printf("\n1. Largest numeric character of n");	
 	printf("\n2. Smallest numeric character digit of n");
