@@ -2,16 +2,16 @@
 #include <math.h>
 
 // Function Prototypes
-void symmetricNumbers( int n );
-void perfectSquareNumbers( int n );
-void primeNumbers( int n );
-void perfectNumber( int n );
-void digitsIncreasing( int n );
-void digitsDecreasing( int n );
+//void symmetricNumbers( int n );
+//void perfectSquareNumbers( int n );
+//void primeNumbers( int n );
+//void perfectNumber( int n );
+//void digitsIncreasing( int n );
+//void digitsDecreasing( int n );
 
 void menu()
 {
-	printf("\n------------Lâm Anh Khôi - SE203458----------------");
+	printf("\n------------Lam Anh Khoi - SE203458----------------");
 	printf("\n0. Exit");
 	printf("\n1. Symmetric numbers of n");	
 	printf("\n2. Perfect square numbers of n");
