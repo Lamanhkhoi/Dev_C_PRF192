@@ -2,12 +2,12 @@
 #include <math.h>
 
 // Function Prototypes
-//void symmetricNumbers( int n );
-//void perfectSquareNumbers( int n );
-//void primeNumbers( int n );
-//void perfectNumber( int n );
-//void digitsIncreasing( int n );
-//void digitsDecreasing( int n );
+void symmetricNumbers( int n );
+void perfectSquareNumbers( int n );
+void primeNumbers( int n );
+void perfectNumber( int n );
+void digitsIncreasing( int n );
+void digitsDecreasing( int n );
 
 void menu()
 {
