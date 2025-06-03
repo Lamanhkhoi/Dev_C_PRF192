@@ -33,9 +33,9 @@ void analysisPrimeNumber( int n){
     }
 
     if (n > 1) {
-        if ( trigger == 1){
+    
             printf(" * ");
-        }
+
         printf("%d", n);
     }
     

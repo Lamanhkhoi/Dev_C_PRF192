@@ -8,7 +8,7 @@ int main()
 		printf("Input a:= ");
 		scanf("%d",&a);
 		if (a == 0){
-			printf(" YOU SO STUPID!!! Input a again !!!\n");
+			printf("Input a again !!!\n");
 		}
 	}while(a == 0);
 		printf("Input b:= ");
