@@ -1,3 +1,8 @@
+/*
+	Họ tên: Lâm Anh Khôi
+	MSSV: SE203458
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
