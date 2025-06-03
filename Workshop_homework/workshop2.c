@@ -57,7 +57,7 @@ int main(){
 float inputSalary (){
     float salary;
     do {
-        printf("\nEnter basic salary for employee: ");
+        printf("\nEnter basic salary (>=0): ");
         scanf("%f", &salary);
         if (salary < 0) {
             printf("Invalid salary. Please enter non-negative value.");
