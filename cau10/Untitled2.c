@@ -29,10 +29,6 @@ do {
                 break;
         }
 
-        if (validInput && (day < 1 || day > totalDayOfMonth)) { 
-            printf("ERROR: Day %d is invalid for month %d, year %d (should be 1-%d).\n", day, month, year, totalDayOfMonth);
-            validInput = 0;
-        }
     }
 
     if (!validInput) {
