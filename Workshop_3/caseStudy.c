@@ -23,8 +23,8 @@ int main(){
         printf("4- Remove all existence of a value\n");
         printf("5- Print out the array\n");
         printf("6- Print out the array in ascending order (positions of elements are preserved)\n");
-        pritnf("7- Print out the array in descending order (positions of elements are preserved)\n");
-        pritnf("Other- Quit\n");
+        printf("7- Print out the array in descending order (positions of elements are preserved)\n");
+        printf("Other- Quit\n");
         printf("Your choice: ");
         scanf("%d", &choice);
     
