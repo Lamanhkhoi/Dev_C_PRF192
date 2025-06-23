@@ -1,3 +1,7 @@
+/*
+Tên: Lâm Anh Khôi
+MSSV: SE203458
+*/
 #include <stdio.h>
 
 int calculateSum( int rows, int cols, int array[rows][cols]);

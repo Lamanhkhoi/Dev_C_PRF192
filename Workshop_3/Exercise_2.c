@@ -1,3 +1,7 @@
+/*
+Tên: Lâm Anh Khôi
+MSSV: SE203458
+*/
 #include <stdio.h>
 
 int firstLinearSearch( int x, int a[], int n);

@@ -1,3 +1,7 @@
+/*
+Tên: Lâm Anh Khôi
+MSSV: SE203458
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 100
@@ -123,7 +127,7 @@ void removeAll(int *a, int *n, int value){
 
 void printArray(int *a, int n){
     for (int i = 0; i < n; i++){
-        printf("%d",a[i]);
+        printf("%d\t",a[i]);
     }
     printf("\n");
 }
