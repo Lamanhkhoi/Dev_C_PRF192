@@ -77,14 +77,14 @@ int main(){
 			case 6:
 				{
 					printf("convert lower string:\n");
-					printf("before: %s", a);
+					printf("before: %s\n", a);
 					printf("after: %s", strlwr(a));
 					break;
 				}
 			case 7:
 				{
 					printf("convert upper string:\n");
-					printf("before: %s", a);
+					printf("before: %s\n", a);
 					printf("after: %s", strupr(a));
 					break;
 				}
@@ -177,7 +177,7 @@ int CountSpace(char *a){
 void ConvertString(char *a){
 	char *str;
 	long num = strtol(a, &str, 10);
-	printf("convert string to integer: %d\n", num);
+	printf("convert string to integer: %ld\n", num);
 	printf("the rest of string: %s", str);
 }
 
