@@ -27,15 +27,15 @@ int main() {
     };
 
     if (isSymmetric(symmetric_matrix, N)) {
-        printf("Ma tran dau tien la ma tran doi xung. ✅\n");
+        printf("Ma tran dau tien la ma tran doi xung.\n");
     } else {
-        printf("Ma tran dau tien KHONG phai la ma tran doi xung. ❌\n");
+        printf("Ma tran dau tien KHONG phai la ma tran doi xung.\n");
     }
 
     if (isSymmetric(non_symmetric_matrix, N)) {
-        printf("Ma tran thu hai la ma tran doi xung. ✅\n");
+        printf("Ma tran thu hai la ma tran doi xung.\n");
     } else {
-        printf("Ma tran thu hai KHONG phai la ma tran doi xung. ❌\n");
+        printf("Ma tran thu hai KHONG phai la ma tran doi xung.\n");
     }
 
     return 0;

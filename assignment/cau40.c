@@ -26,7 +26,7 @@ int main(){
     printf("In matrix:\n");
     printArray(a,rows,columns);
 
-    printf("he sum of the elements on the sub-diagonal of a square matrix is %d", sum(a,rows,columns));
+    printf("The sum of the elements on the sub-diagonal of a square matrix is %d", sum(a,rows,columns));
     return 0;
 }
 

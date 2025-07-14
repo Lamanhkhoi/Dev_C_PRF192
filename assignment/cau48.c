@@ -28,9 +28,9 @@ int main() {
     }
 
     if (isPalindrome(str1)) {
-        printf("Chuoi %s la mot Palindrome. ✅\n", str1);
+        printf("Chuoi %s la mot Palindrome.\n", str1);
     } else {
-        printf("Chuoi %s KHONG phai la Palindrome. ❌\n", str1);
+        printf("Chuoi %s KHONG phai la Palindrome.\n", str1);
     }
 
     return 0;

@@ -18,7 +18,7 @@ int main(){
     }
     
     max = a[0];
-    min = a[size];
+    min = a[size - 1];
     for ( i = 0; i < size; i++ ){
         temp = a[i];
         if ( max < temp ){
